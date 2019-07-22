@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Rating
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color: #f5f5ff"  >
+  <ionic3-star-rating 
+        activeIcon = "ios-star"
+        defaultIcon = "ios-star-outline"
+        activeColor = "#488aff" 
+        defaultColor = "red"
+        readonly="false"
+        [rating]="rating">
+  </ionic3-star-rating>
+
+  Selected rating: {{rating}}
+</ion-content>
