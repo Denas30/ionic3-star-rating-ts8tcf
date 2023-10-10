@@ -9,7 +9,7 @@
     "date-fns": "1.29.0",
     "typescript": "2.3.4",
     "ionic3-star-rating": "1.1.0",
-    "@angular/core": "5.2.9",
+    "@angular/core": "10.2.5",
     "@angular/http": "5.1.2",
     "ionic-angular": "3.9.2",
     "@angular/forms": "5.2.9",
